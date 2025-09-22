@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+# Node / misc
+node_modules/
+# OS
+.DS_Store
+Thumbs.db
+# IDE
+.vscode/
+.idea/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+terraform.tfvars
+# Docker
+*.log
+# Build
+dist/
+build/
+# Secrets
+*.json
+*.key
+*.pem
+google-services.json
+arctic-signer-*.json
